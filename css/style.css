@@ -1,0 +1,293 @@
+*{
+	box-sizing: border-box;
+	font-family: Roboto;
+}
+body{
+	margin: 0;
+}
+
+
+/* navbar starts here */
+#nav1{
+	background-color: rgba(22, 33, 70, 0.5);
+	padding: 15px 0;
+	border-bottom: 1.5px solid #fff;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+}
+/* nav bar ends here */
+
+/* banner section starts here */
+
+#banner{
+	background: url("../img/banner1.jpg") no-repeat fixed;
+	background-size: cover;
+
+}
+.text-light{
+	color: #fff;
+}
+.text-center{
+	text-align: center;
+}
+
+
+
+
+#banner h1{
+	margin: 0;
+	font-size: 5rem;
+	font-weight: normal;
+}
+#banner .tagline{
+	font-size: 2rem;
+}
+#banner .overlay{
+	background-color: rgba(0,0,0,.7);
+	padding: 260px 0;
+}
+
+.bg-dark{
+	background-color: #293241;
+}
+
+/* banner section ends here */
+    #mission{
+    background: #293241;
+    }
+    
+    #mission .reg-form .card-header{
+    background: #CC563E;
+    padding: 8px 13px;
+    
+    }
+    
+    #mission .reg-form .card{
+    background: rgba(152, 193, 217,.55);
+    }
+    
+    #mission .reg-form .card-header button:focus{
+    box-shadow: unset;
+    outline: 0;
+    }
+    
+    #mission .reg-form .form-control {
+    background-color: transparent;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #ced4da;
+    color: #e6e7e7;
+    }
+    
+    #mission .reg-form .form-control:focus{
+    outline: 0;
+    box-shadow: unset;
+    }
+    
+    #mission .reg-form .btn-danger{
+    background: #CC563E;
+    }
+    #mission .card button[data-toggle="collapse"]{
+    padding: 0;
+    }
+    
+    #elearn {
+    background: #98C1D9;
+    }
+    
+    #elearn .btn-danger{
+    background: #CC563E;
+    }
+
+    #cons{
+        background-color: #293241;
+    }
+    .card{
+        margin:5px;
+        border: none;
+    }
+    .card .card-header{
+        background-color: #CC563E;
+        color: white;
+    }
+    h1{
+        text-transform: uppercase;
+    }
+    .card-body{
+        background-color: gray;
+    }
+    /* teachers section starts here */
+    #team{
+        padding: 5rem 0;
+    }
+    #team h1{
+        margin: 0;
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    #team .col{
+        width: 16.66%;
+        padding: 0 15px;
+        float: left;
+    }
+    #team .box img{
+        width: 100%;
+        display: block;
+    }
+    #team .name{
+        font-family: Oswald;
+    }
+    
+    #team .content{
+        background-color: #98C1D9;
+        padding: 10px 3px;
+        transform: translateY(0);
+        transition: .5s;
+    }
+    #team .content .icon i{
+        padding: 5px 10px;
+    }
+    #team .box {
+        height: 238px;
+        background-color: #98C1D9;
+        overflow: hidden;
+        border-radius: 5px;
+        border: 1px solid #fff;
+    }
+    #team .box img{
+        height: 180px;
+    }
+    #team .box:hover .content{
+        transform: translateY(-60px);
+    }
+    
+    #team .row2{
+        margin-top: 30px;
+    }
+
+    /* teachers section ends here */
+    /* our faculty students */
+    #ourteam h1{
+        margin: 0;
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    #ourteam{
+        padding: 3rem 0;
+        background-color: #98C1D9;
+    }
+    #ourteam .card-body{
+        height: 172px;
+    }
+    
+    #ourteam img{
+        width: 130px;
+        height: 100px;
+    }
+    
+    
+    /* gallery section */
+
+    
+		#gallery{
+            background-color: seagreen;
+        }
+		.row::after{
+			display: block;
+			content: "";
+			clear: both;
+		}
+
+		.column{
+			width: 25%;
+			float: left;
+		}
+		.img-box img{
+			width: 100%;
+            height: auto;
+			display: block;
+			transition: 1s;
+
+		}
+		.img-box{
+			overflow: hidden;
+		}
+		.img-box:hover img{
+			transform:  scale(1.5);
+
+        }
+     /* gallery section ends here */
+     /* location section starts here */
+     #location{
+         background-color: #98C1D9;
+     }
+
+     #location h1{
+        text-align: center;
+    }
+    /* locations ends here */
+    /* contact starts here */
+
+    #ami{
+        padding: 5rem 0;
+    }
+    
+    #ami h1{
+        margin: 0;
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    #ami.col{
+        float: left;
+        padding: 0 15px;
+        width: 50%;
+    }
+    #ami .item{
+        padding: 5px 0;
+    }
+    #ami .item i{
+        width: 30px;
+    }
+    
+    #ami input{
+        width: 100%;
+        display: block;
+        background-color: #98C1D9;
+        outline: 0;
+        border: 0;
+        padding: .375rem .75rem;
+        line-height: 1.5;
+    
+    }
+    #ami textarea{
+        margin-top: 10px;
+        width: 100%;
+        display: block;
+        background-color: #98C1D9;
+        outline: 0;
+        border: 0;
+        padding: .375rem .75rem;
+        line-height: 1.5;
+    }
+
+    #ami form .col{
+        width: 50%;
+        padding: 0 15px;
+        float: left;
+    }
+    #ami .btn{
+        background: #CC563E;
+        border-radius: 5px;
+        border: 0;
+        outline: 0;
+        display: inline-block;
+        padding: .375rem .75rem;
+        line-height: 1.5;
+        color: #fff;
+        margin-top: 10px;
+    }
+    
+    .text-right{
+        text-align: right;
+    }

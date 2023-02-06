@@ -1,0 +1,72 @@
+@media only screen and (max-width: 1920px){
+    .navbar{
+        z-index: 11110;
+    }
+
+}
+@media only screen and (max-width: 1199px){
+    .navbar{
+        z-index: 10;
+        opacity: 1;
+    }
+#banner .overlay{
+padding: 230px 0;
+}
+}
+@media only screen and (max-width: 991px){
+#banner .overlay{
+padding: 180px 0;
+}
+}
+
+
+@media only screen and (max-width: 767px){
+ 
+#navbar nav{
+padding: 18px 30px;
+background-color: rgba(22,33,70, 1);
+}
+
+#navbar nav li{
+border-bottom: 1px dashed #5b637d;
+}
+#navbar nav li:last-child{
+border-bottom-width: 0;
+}
+
+#navbar nav ul{
+padding: 20px 0;
+}
+
+#banner .overlay{
+padding: 140px 0;
+}
+
+#banner .content h1{
+padding-top: 50px;
+font-size: 40px;
+}
+#elearn .btn-danger{
+width: 100%;
+}
+#cons .card{
+    width: 100%;
+}
+
+}
+
+@media only screen and (max-width: 575px){
+#banner .overlay{
+padding: 80px 0;
+}
+#banner .content h1{
+padding-top: 70px;
+font-size: 25px;
+}
+#banner .content p{
+font-size: .7rem;
+}
+#navbar nav{
+padding: 8px 30px;
+}
+}
